@@ -1,0 +1,71 @@
+html{
+    font-family: helvetica;
+}
+body{
+    background-color: #a10a0a;
+}
+.container{
+    background-color: #fff;
+    max-width: 1100px;
+    position:relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+.bolder{
+    font-weight: bold;
+}
+.header{
+    text-align:center;
+}
+.main-title{
+    font-size: 40px;
+}
+.main-subtitle{
+    font-style: italic;
+}
+.featured-image{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.biografia{
+    padding: 25px 0px;
+    margin: 25px 0px;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+.citaçaocontainer{
+      background-color: #a10a0a;
+      padding: 30px;
+      color:#ddd;
+      font-style: italic;
+}
+.containerblockquote{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.tradução{
+    opacity: 0.5;
+}
+.discografia{
+    margin: 25px 0px;
+    padding: 25px 0px;
+    border-top: 1px dashed #DDD;
+    border-bottom: 1px dashed #DDD;
+}
+.discografia li{
+    height: 30px;
+}
+
+.img2{
+    text-align: center;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    font-style: italic;
+    color: #a10a0a
+}

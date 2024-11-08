@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(212, 217, 221);
+        }
+        form{
+            width: 300px;
+            margin: 200px auto;
+            text-align: center;
+        }
+        input{
+            display: block;
+            margin: 10px auto;
+            width: 250px;
+            height: 30px;
+        }
+        h1{
+            font-size: 36px;
+        }
+        span{
+            color: rgb(15, 5, 199)
+        }
+        input[type='submit']{
+            background-color: rgb(15, 5, 199);
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <!--Pagina de Login Utilizando JAVASCRIPT
+    meu RU Ficticio.: 44445555
+    meu nome: Melck
+    -->
+    <form>
+        <h1>Login Com Meu <span>RU</span></h1> 
+        <input type="text" placeholder="Insira meu nome aqui." id="nome">
+        <input type="password" placeholder="Insira meu RU" id="ru">
+        <input type="submit" placeholder="Enviar" onclick="logar(); return false"><!--  
+        onclick para que quando o botão submit seja clickado ative a função Logar.
+        -->
+    </form>
+    <script>
+       
+        function logar(){
+            //seleciona os valores digitados nos elemetnos html através do id.
+            var nome = document.getElementById('nome').value;
+            var ru = document.getElementById('ru').value;
+            //validação de nome e RU
+            if(nome == "Melck" && ru == "44445555"){
+                alert('Você conseguiu');
+                location.href = "index.html";// se senha e usuarios forem True, redireciona pra pagina.
+            }else{
+                alert('Usuario ou senha incorretos');
+            }
+
+        }
+    </script>
+</body>
+</html>

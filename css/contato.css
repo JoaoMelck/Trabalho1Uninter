@@ -1,0 +1,90 @@
+body{
+    background-color:  rgb(212, 217, 221);
+}
+.main-banner h3{
+    text-align: center;
+    font-size: 72px;
+    color: rgb(15, 5, 199);
+}
+#dstq{
+    color: rgb(0, 0, 0); 
+}
+.main-banner h3:hover{  
+    cursor: pointer;
+}
+ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-top: 100px;
+}
+li{
+    margin-bottom: 25px;
+    margin-left: 25px;
+    font-size: 42px;
+}
+li a{
+    text-decoration: none;
+    color:rgb(15, 5, 199);
+}
+li a:hover{
+    background-color:rgb(15, 5, 199);
+    color:rgb(255, 255, 255)
+}
+footer h4{
+    text-align: center;
+    margin-top: 75px;
+}
+.about-me{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.about-me h2{
+    font-size: 42px;
+    color: rgb(15, 5, 199);
+}
+#about{
+    font-size: 28px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#dstq2{
+    color: rgb(15, 5, 199)
+}
+.email-container h2{
+    color: #fff;
+    padding-bottom: 50px;
+    font-size:44px
+}
+.email-container input{
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+#btn-email{
+    width: 60%;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.email-container input[type="submit"]{
+    background-color: rgb(15, 5, 199);
+    color: #fff;
+    border: 2px solid rgb(15, 5, 199);
+    padding: 15px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0,7s;
+}
+
+.email-container input[type="submit"]:hover{
+    border:2px solid #fff;
+}
